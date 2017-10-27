@@ -1,6 +1,8 @@
 FROM resin/raspberrypi-node
 
-RUN apt-get update && apt-get install -yq libraspberrypi-bin network-manager
+RUN apt-get update && apt-get install -yq \
+    libraspberrypi-bin \
+    network-manager
 
 WORKDIR usr/src/app
 
