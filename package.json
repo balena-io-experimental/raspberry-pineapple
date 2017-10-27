@@ -1,0 +1,17 @@
+{
+  "name": "intercepting-wifi-hotspot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A talk looking at practical MitM attacks, and how to stop them (with HSTS)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Tim Perry <pimterry@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "http-mitm-proxy": "joeferner/node-http-mitm-proxy#bb18103a",
+    "nodemon": "^1.9.2"
+  }
+}
