@@ -9,7 +9,7 @@
     "start": "nodemon index.js"
   },
   "author": "Tim Perry <pimterry@gmail.com>",
-  "license": "UNLICENSED",
+  "license": "Apache-2.0",
   "dependencies": {
     "http-mitm-proxy": "joeferner/node-http-mitm-proxy#bb18103a",
     "nodemon": "^1.9.2"
