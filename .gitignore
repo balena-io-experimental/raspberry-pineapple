@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+# Resin local config
+.resin-sync.yml
