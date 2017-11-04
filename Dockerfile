@@ -1,8 +1,9 @@
-FROM resin/raspberrypi-node
+FROM resin/raspberrypi3-node
 
 RUN apt-get update && apt-get install -yq \
     libraspberrypi-bin \
-    network-manager
+    network-manager \
+    iptables
 
 WORKDIR usr/src/app
 
@@ -11,4 +12,4 @@ RUN JOBS=MAX npm i --production
 
 COPY . ./
 
-CMD npm start
+CMD ["bash", "start.sh"]
